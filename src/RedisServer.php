@@ -7,7 +7,10 @@
 
 namespace Renxiaotu\database;
 
-class RedisServer extends \Redis{
+use Redis;
+
+class RedisServer extends Redis{
+
     private static function redis(){
         static $redis;
         if(!$redis)$redis=new RedisServer();
