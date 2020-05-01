@@ -1,0 +1,20 @@
+{
+    "name": "renxiaotu/database",
+    "description": "database tools",
+    "homepage": "https://composer.renxiaotu.com/database/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "renxiaotu",
+            "homepage": "https://www.renxiaotu.com"
+        }
+    ],
+    "require": {
+        "php":">=7.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Renxiaotu\\database\\": "src/"}
+    }
+}
